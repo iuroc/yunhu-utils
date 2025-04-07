@@ -1,6 +1,6 @@
 {
   "name": "yunhu-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "云湖工具包",
   "keywords": [],
   "homepage": "https://github.com/iuroc/yunhu-utils#readme",
@@ -31,5 +31,9 @@
     "@types/node": "^22.14.0",
     "tsx": "^4.19.3"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "packageManager": "pnpm@10.4.1"
 }
