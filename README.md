@@ -21,7 +21,7 @@ import { loginByEmail, getUploadToken, uploadImage } from 'yunhu-utils'
 
 const token = await loginByEmail('user@hello.com', '12345678')
 const uploadToken = await getUploadToken(token)
-const downloadURL = await uploadImage(uploadToken, 'E:/视频/Video.mp4')
+const downloadURL = await uploadImage(uploadToken, 'E:/图片/test.jpg')
 
 console.log(`图片下载地址: ${downloadURL}`)
 ```
