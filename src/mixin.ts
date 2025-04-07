@@ -1,0 +1,1 @@
+export const originURL = 'https://chat-go.jwzhd.com'

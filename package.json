@@ -1,0 +1,22 @@
+{
+  "name": "yunhu-utils",
+  "version": "1.0.0",
+  "description": "云湖工具包",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "iuroc",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "dependencies": {
+    "form-data": "^4.0.2",
+    "node-fetch": "^3.3.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
