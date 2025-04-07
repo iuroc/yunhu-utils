@@ -3,7 +3,7 @@ import { v3, v4 } from 'uuid'
 import { createReadStream } from 'fs'
 import FormData from 'form-data'
 import fetch from 'node-fetch'
-import { basename, extname } from 'path'
+import { extname } from 'path'
 
 /**
  * 模拟 Windows 客户端使用邮箱登录的过程

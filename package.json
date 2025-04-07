@@ -2,21 +2,34 @@
   "name": "yunhu-utils",
   "version": "1.0.0",
   "description": "云湖工具包",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "iuroc",
+  "homepage": "https://github.com/iuroc/yunhu-utils#readme",
+  "bugs": {
+    "url": "https://github.com/iuroc/yunhu-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuroc/yunhu-utils.git"
+  },
   "license": "ISC",
-  "packageManager": "pnpm@10.4.1",
+  "author": "iuroc",
+  "type": "module",
+  "exports": "./dist/main.mjs",
+  "types": "./dist/main.d.mts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "pkgroll --clean-dist --sourcemap"
+  },
   "dependencies": {
     "form-data": "^4.0.2",
     "node-fetch": "^3.3.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0"
-  }
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3"
+  },
+  "packageManager": "pnpm@10.4.1"
 }
