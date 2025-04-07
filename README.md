@@ -8,9 +8,13 @@
 
 ## 使用说明
 
+### 安装模块
+
 ```bash
 pnpm add yunhu-utils
 ```
+
+### 使用模块
 
 ```typescript
 import { loginByEmail, getUploadToken, uploadImage } from 'yunhu-utils'
@@ -20,4 +24,17 @@ const uploadToken = await getUploadToken(token)
 const downloadURL = await uploadImage(uploadToken, 'E:/视频/Video.mp4')
 
 console.log(`图片下载地址: ${downloadURL}`)
+```
+
+### 配置 `tsconfig.json`
+
+```json
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "NodeNext",
+        "target": "ESNext",
+        "moduleResolution": "nodenext",
+    }
+}
 ```
